@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2>Welcome to the best courny</h2>
+    <h1>About DadJokes</h1>
+    <p>This is an app that displays corny dad jokes</p>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   head() {
     return {
       // タイトル変更
-      title: "Welcome to Dad Jokes",
+      title: "About The App",
       // metaタグ
       meta: [
         {
@@ -18,9 +19,9 @@ export default {
           content: "Best place for corny dad jokes"
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style>
