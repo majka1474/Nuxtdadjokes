@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Welcome to the best courny</h2>
+    <h2>Welcome to the best courny dad jokes app on the web</h2>
   </div>
 </template>
 
