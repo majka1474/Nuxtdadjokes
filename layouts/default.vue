@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <AppHeader />
     <Nuxt />
   </div>
@@ -17,4 +17,17 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  background: #fff;
+}
 </style>
